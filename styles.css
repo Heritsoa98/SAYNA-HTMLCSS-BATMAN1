@@ -1,0 +1,471 @@
+body {
+    margin: 0 auto;
+    background: 100% fixed content-box;
+    background-color: black;
+    opacity: 0.9;
+}
+strong {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 22px;
+    color: white;
+}
+p {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 12px;
+    color: white;
+}
+h1 {
+    font-family: 'Rajdhani', 'Times New Roman', Times, serif ;
+    font-size: 36px;
+    color: white;
+}
+button {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+h2 {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+h3 {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+/* --------------------------HEADER-------------------------- */
+header{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    background-position: top center;
+    background: url(../ILLUSTRATIONS/Bathome1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div#ONE {
+    width: 95%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header div#ONE div#logohome {
+    width: 85%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div#ONE div#logohome img:hover {
+    background-color: #FFFF00;
+}
+header div#ONE div#logohome h1#Home {
+    border-bottom: white;
+    text-decoration: underline 1px;
+}
+header div#ONE div#TB1 {
+    width: 55%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-justify: center ;
+    align-items: center;
+    justify-content: center;
+}
+header div#ONE div#BTN1 {
+    width: 55%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+header div#ONE div#BTN1 input{
+    width: 40%;
+    height: 70px;
+    background-image: linear-gradient(to right, #eddebf, #890008);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+header div#ONE div#BTN1 input:hover {
+    width: 40%;
+    height: 70px;
+    background-image: linear-gradient(to right, #eddebf, #890008);
+    display: flex;
+    justify-content: space-around;
+    transform: scale(1.2);
+}
+header div#Logo {
+    width: 0%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header div#Logo img:hover {
+    background-color: #FFFF00;
+}
+div#flèche_down_header {
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* --------------------------ARTICLE1-------------------------- */
+article#A1 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article#A1 div#Texte1 {
+    width: 85%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+article#A1 div#Images1 {
+    width: 85%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: none;
+}
+article#A1 div#Images1 div#Bathome2:hover {
+    transform: scale(1.1);
+}
+article#A1 div#Images1 div#Bathome3:hover {
+    transform: scale(1.1);
+}
+article#A1 div#Images1 div#Bathome4:hover {
+    transform: scale(1.1);
+}
+/* --------------------------ARTICLE2-------------------------- */
+article#A2 {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+article#A2 div#Texte2 {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+article#A2 div#Texte2 div#Némesis {
+    width: 15%;
+    height: 100px;
+    display: flex;
+}
+article#A2 div#Images2 {
+    width: 85%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+article#A2 div#Images2 div#Bathome5:hover {
+    transform: scale(1.1);
+}
+article#A2 div#Images2 div#Bathome6:hover {
+    transform: scale(1.1);
+}
+article#A2 div#Images2 div#Bathome7:hover {
+    transform: scale(1.1);
+}
+article#A2 div#Bathome12 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+/* --------------------------ARTICLE3-------------------------- */
+article#A3 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article#A3 div#Texte3 {
+    width: 85%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+article#A3 div#Images3 {
+    width: 85%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: none;
+}
+article#A3 div#Images3 div#Bathome8:hover {
+    transform: scale(1.1);
+}
+article#A3 div#Images3 div#Bathome9:hover {
+    transform: scale(1.1);
+}
+article#A3 div#Images3 div#Bathome10:hover {
+    transform: scale(1.1);
+}
+/* --------------------------ARTICLE4-------------------------- */
+article#A4 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article#A4 div#Texte4 {
+    width: 85%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+article#A4 div#Images4 {
+    width: 85%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+}
+/* --------------------------ARTICLE5-------------------------- */
+article#A5 {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+article#A5 div#Texte5 {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+article#A5 div#Texte5 div#Tableau {
+    width: 55%;
+    height: 300px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    border-radius: 10px;
+}
+article#A5 div#Texte5 div#Tableau img#Bathome_ba1 {
+    width: 30%;
+    height: 300px;
+}
+article#A5 div#Texte5 div#Tableau div#Tableau2 {
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+}
+article#A5 div#Bathome_ba2 {
+    width: 85%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article#A5 div#Bathome_ba2:hover {
+    color: #eddebf;
+}
+/* --------------------------ASIDE-------------------------- */
+aside {
+    width: 100%;
+    height: 900px;
+    background-color: rgb(72, 66, 66);
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside div#Formulaire {
+    width: 90%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+aside div#Formulaire h2#Prenons {
+    height: 50px;
+    font-family: 'Rajdhani', 'Times New Roman', Times, serif ;
+    font-size: 50px;
+    align-items: center;
+}
+aside div#Formulaire form {
+    width: 60%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+aside div#Formulaire form label {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 18px;
+    color: white;
+}
+aside div#Formulaire form input#Email1 {
+    height: 25px;
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    background: none;
+    box-sizing: 0.9px White;
+}
+aside div#Formulaire form input#BatmanCase {
+    height: 20px;
+    display: flex;
+}
+aside div#Formulaire form div#Span {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    color: white;
+    text-decoration: underline ;
+}
+aside div#Formulaire form div#Span2 p{
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 16px;
+    text-decoration: underline ;
+}
+aside div#Formulaire form div#BTN3 {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+aside div#Formulaire form div#BTN3 input{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', 'Times New Roman', Times, serif ;
+    box-shadow: 0.1px white;
+    background: none;
+    color: white;
+}
+aside div#Formulaire form div#BTN3 input:hover {
+    width: 20%;
+    height: 40px;
+    background-image: linear-gradient(to right, #eddebf, #19587D);
+    display: flex;
+    justify-content: space-around;
+}
+aside div#Formulaire form p {
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    font-size: 22px;
+}
+aside div#Formulaire form textarea {
+    height: 25px;
+    font-family: 'Space Grotesk', 'Times New Roman', Times, serif ;
+    background: white;
+    box-sizing: 0.9px White;
+    color: white;
+}
+aside div#Formulaire input#BTN3 {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    background-image: linear-gradient(to right, #eddebf, #890008);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', 'Times New Roman', Times, serif ;
+    font-size: 22px;
+    color: white;
+    border: none;
+}
+/* -------------------------------FOOTER -------------------------------*/
+footer {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer div#LesLogos1 {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer div#LesLogos2 {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+footer div#LesLogos2 div#LogoP1 {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer div#LesLogos2 div#LogoP11 {
+    width: 70%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div#LesLogos2 div#LogoP2 { 
+    width: 30%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer div#LesLogos2 div#LogoP2 img:hover {
+    background-color: #FFFF00;
+}
